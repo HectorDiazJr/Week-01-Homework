@@ -8,23 +8,27 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* removed the class header*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* removed the class header*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* removed the class header*/
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+/* removed the class header*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +36,13 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+/* removed the class header*/
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+/* removed the class header*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,13 +75,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* removed class */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* removed class */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -92,8 +100,8 @@ p {
     color: #ffffff;
 }
 
-/* grouped benefit-lead h3, benefit-brand h3, and benefit-cost h3*/
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+/* grouped all to h3*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }

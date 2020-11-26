@@ -28,7 +28,7 @@ header h1 .seo {
 }
 
 /* removed the class header*/
-header nav {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,12 +37,12 @@ header nav {
 }
 
 /* removed the class header*/
-header nav ul {
+header div ul {
     list-style-type: none;
 }
 
 /* removed the class header*/
-header nav ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
